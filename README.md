@@ -8,5 +8,3 @@ We plan to do this through a conference, community events, and coworking spaces.
 
 
 
-[Link](url) and ![Image](src)
-
