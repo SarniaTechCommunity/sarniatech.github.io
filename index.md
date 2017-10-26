@@ -1,4 +1,6 @@
 ---
+layout: default
+title: Home
 ---
 # Welcome to the Sarnia Tech Community!
 
@@ -25,6 +27,7 @@ Meetings are free to attend.
 #### Nov 1st, 2017
 #### Nov 15th, 2017
 
+
 ## <a name="friends" />Friends and Family
 
 Sarnia Tech Community is a friend and follower of SLLUG (Sarnia Lambton Linux Users Group)
@@ -32,7 +35,7 @@ Go check out [SLLUG's Website](http://www.sllug.ca/).
 
 ## <a name="contact" />Contact
 
-The best place to see upcoming events is by joining our [Facebook Page](https://www.facebook.com/groups/SarniaTech/).
+The best place to see upcoming events is by joining our [Facebook Group](https://www.facebook.com/groups/SarniaTech/).
 
 If you would like to join the conversation then check out our [Slack Group](https://sarnia.slack.com/).
-To get a slack invite sign up [to become a Sarnia Tech Community Member](https://www.cognitoforms.com/SarniaTechCommunity/SarniaTechCommunityBecomeAMember).
+To get a slack invite sign up to [become a Sarnia Tech Community Member](https://www.cognitoforms.com/SarniaTechCommunity/SarniaTechCommunityBecomeAMember).
