@@ -5,6 +5,7 @@ title: Home
 # Welcome to the Sarnia Tech Community!
 
 * [Meetings](#meetings)
+* [Membership](/members)
 * [Friends and Family](#friends)
 * [Contact](#contact)
 
@@ -38,4 +39,4 @@ Go check out [SLLUG's Website](http://www.sllug.ca/).
 The best place to see upcoming events is by joining our [Facebook Group](https://www.facebook.com/groups/SarniaTech/).
 
 If you would like to join the conversation then check out our [Slack Group](https://sarnia.slack.com/).
-To get a slack invite sign up to [become a Sarnia Tech Community Member](https://www.cognitoforms.com/SarniaTechCommunity/SarniaTechCommunityBecomeAMember).
+To get a slack invite sign up to [become a Sarnia Tech Community Member](/members).
