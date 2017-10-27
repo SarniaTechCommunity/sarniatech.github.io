@@ -1,10 +1,10 @@
 ## Welcome to The Sarnia Tech Community!
 
-The Sarnia Tech Community's mission is to transform Sarnia into a hub of technology and innovation.
+Jekyll/GitHub Pages Website for the Sarnia Tech Community.
 
-We are creating a community of professionals that attracts tech businesses, encourages entrepreneurship, and generates revenue streams into our city.
+To visit the live site go to [sarniatechcommunity.github.io](https://sarniatechcommunity.github.io/) or [sarniatech.ca](http://sarniatech.ca)
 
-We plan to do this through a conference, community events, and coworking spaces.
+If you would like to help maintain this site connect with us on SLACK and join the #website channel.
 
 
 

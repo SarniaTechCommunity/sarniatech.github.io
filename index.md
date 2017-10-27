@@ -5,7 +5,7 @@ title: Home
 # Welcome to the Sarnia Tech Community!
 
 * [Meetings](#meetings)
-* [Membership](/members)
+* [Join the Community](#community)
 * [Friends and Family](#friends)
 * [Contact](#contact)
 
@@ -28,6 +28,17 @@ Meetings are free to attend.
 #### Nov 1st, 2017
 #### Nov 15th, 2017
 
+## <a name="community" />Join the Community
+
+The best place to see upcoming events is by joining our [Facebook Group](https://www.facebook.com/groups/SarniaTech/).
+
+If you would like to join the conversation then check out our [Slack Group](https://sarnia.slack.com/).
+To get a slack invite and join our mailing list sign up to [become a Sarnia Tech Community Member](/member).
+
+If you would only like to receive emails about major events then [become a Subscriber](/subscriber)
+
+PS We take privacy very seriously.  We will only use the information you provide to give you information about the Sarnia Tech Community.
+PPS You can unsubscribe or change your email preferences at any time.
 
 ## <a name="friends" />Friends and Family
 
@@ -39,4 +50,4 @@ Go check out [SLLUG's Website](http://www.sllug.ca/).
 The best place to see upcoming events is by joining our [Facebook Group](https://www.facebook.com/groups/SarniaTech/).
 
 If you would like to join the conversation then check out our [Slack Group](https://sarnia.slack.com/).
-To get a slack invite sign up to [become a Sarnia Tech Community Member](/members).
+To get a slack invite sign up to [become a Sarnia Tech Community Member](/member).
