@@ -7,7 +7,6 @@ title: Home
 * [Meetings](#meetings)
 * [Join the Community](#community)
 * [Friends and Family](#friends)
-* [Contact](#contact)
 
 The Sarnia Tech Community's mission is to transform Sarnia into a hub of technology and innovation.
 
@@ -44,10 +43,3 @@ PPS You can unsubscribe or change your email preferences at any time.
 
 Sarnia Tech Community is a friend and follower of SLLUG (Sarnia Lambton Linux Users Group)
 Go check out [SLLUG's Website](http://www.sllug.ca/).
-
-## <a name="contact" />Contact
-
-The best place to see upcoming events is by joining our [Facebook Group](https://www.facebook.com/groups/SarniaTech/).
-
-If you would like to join the conversation then check out our [Slack Group](https://sarnia.slack.com/).
-To get a slack invite sign up to [become a Sarnia Tech Community Member](/member).
