@@ -24,8 +24,8 @@ Meetings are free to attend.
 
 ### Upcoming Meetings
 
-#### Nov 1st, 2017
 #### Nov 15th, 2017
+#### Nov 29th, 2017
 
 ## <a name="community" />Join the Community
 
