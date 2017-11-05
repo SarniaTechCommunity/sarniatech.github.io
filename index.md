@@ -44,5 +44,3 @@ PPS You can unsubscribe or change your email preferences at any time.
 
 Sarnia Tech Community is a friend and follower of SLLUG (Sarnia Lambton Linux Users Group)
 Go check out [SLLUG's Website](http://www.sllug.ca/).
-
-{% include footer.html %}
