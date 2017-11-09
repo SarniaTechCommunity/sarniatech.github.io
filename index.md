@@ -36,6 +36,8 @@ To get a slack invite and join our mailing list sign up to [become a Sarnia Tech
 
 If you would only like to receive emails about major events then [become a Subscriber](/subscriber)
 
+We also have a [Google Drive](https://goo.gl/4vA69g) where you can check out some of our collaboration docs.
+
 PS We take privacy very seriously.  We will only use the information you provide to give you information about the Sarnia Tech Community.
 
 PPS You can unsubscribe or change your email preferences at any time.
