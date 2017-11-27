@@ -24,8 +24,8 @@ Meetings are free to attend.
 
 ### Upcoming Meetings
 
-#### Nov 15th, 2017
-#### Nov 29th, 2017
+#### TBA - Check out our SLACK Channel and FB Group for more info
+#### Exciting Info Coming Soon!
 
 ## <a name="community" />Join the Community
 
