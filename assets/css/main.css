@@ -1,0 +1,219 @@
+/*COMMON*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#meeting-section, #join-section, #family-section{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.header-title{
+    font-weight: 900;
+}
+.header-subtitle{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+#join-section .header-title, #family-section .header-title, #meeting-section .header-title{
+    color: #36528f;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#join-section .header-subtitle, #family-section .header-subtitle, #meeting-section .header-subtitle{
+    color: #909090;
+}
+.button:hover.header-button1 {
+    border-color: #fff;
+    color: #fff;
+}
+.header-button1, .header-button2, .header-button3{
+    background-color: transparent;
+    border-radius: 2em;
+    margin-top: 2em;
+    padding: 1.4em;
+}
+.header-button1{
+    color: #8cfef4;
+    border: 3px solid #8cfef4;
+}
+.header-button2{
+    color: #0047e3;
+    border: 3px solid #0047e4;
+}
+.header-button3{
+    color: #157f71;
+    border: 3px solid #157f71;
+}
+.text-right{
+    text-align: right;
+}
+.header-title{
+    margin-bottom: 1.5em;
+}
+.blk{
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.blue{
+    color: #0047e4;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/*Header Area*/
+#header-section .main-img{
+    right: 0em;
+    z-index: 999;
+    position: absolute;
+    width: 60%
+}
+#header-section .header-title {
+    color: white;
+    font-size: 6em;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+}
+
+#header-section .header-subtitle {
+    color: white;
+}
+
+
+
+/*Nav Area*/
+#nav-section, #header-section {
+    background-color: #0047e4;
+}
+#nav-section .navbar-menu{
+    color: #fff;
+}
+#nav-section .navbar-item img{
+    max-height: 5em
+}
+#nav-section{
+    padding: 3em 3em 0 3em;
+}
+#nav-section nav{
+    float: right;
+}
+#nav-section nav ul, #nav-section nav ul li {
+    display: inline-block;
+    vertical-align: middle
+}
+#nav-section nav ul.channel{
+    margin-right: 2em
+}
+#nav-section nav ul.channel li{
+    margin: 0 0.3em
+}
+#nav-section nav ul.menu li{
+    margin:0 1em ;
+}
+#nav-section nav ul.menu li a{
+    color: #fff;
+    padding:0.3em;
+}
+#nav-section nav ul.menu li a:hover{
+    color: #8cfef4;
+    border-bottom: solid 2px #8cfef4;
+}
+.desktop{
+    display: inline-block
+}
+.mobile{
+    display: none;
+}
+
+
+/*Meeting Area*/
+#meeting-section{
+    background: #fafbfd url('../img/main-bg2.png') no-repeat;
+    background-size: 70% auto;
+}
+#meeting-section img{
+    width:80%;
+}
+
+/*Join Area*/
+.facebook{
+    text-align: right;
+}
+
+
+/*Family Area*/
+#family-section{
+    background: url('../img/main-bg3.png') no-repeat;
+    text-align: center;
+}
+
+/*Footer Area*/
+footer{
+    color: #909090;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1140px) {
+
+    /* This hides the Facebook embed as soon as the layout starts to break. */
+    .facebook {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .desktop{display: none}
+    .mobile{display: inline-block;}
+
+    nav.mobile {
+        padding-top: 0.5em;
+        text-align: right;
+    }
+    nav.mobile img{
+        width: 30%;
+    }
+    .main-img{
+        display: none;
+    }
+
+    section{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .facebook{
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 426px) {
+    #header-section .header-title {
+        font-size: 4em;
+    }
+
+    #join-section .header-title, #family-section .header-title, #meeting-section .header-title {
+        margin-bottom: 0.5em;
+    }
+
+    #join-section .header-title, #family-section .header-title, #meeting-section .header-subtitle {
+        margin-top: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 1216px) {
+    .header-subtitle {
+        width: 60%;
+    }
+
+}

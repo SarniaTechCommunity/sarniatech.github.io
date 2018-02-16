@@ -1,4 +1,6 @@
 ---
+layout: base
+title: Become a Sarnia Tech Community Member
 ---
 # Become a Sarnia Tech Community Member
 If you only want to subscribe to major announcements then click [HERE](/subscriber) to become a subscriber.

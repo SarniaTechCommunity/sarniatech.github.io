@@ -1,4 +1,6 @@
 ---
+layout: base
+title: Become a Sarnia Tech Community Subscriber
 ---
 # Become a Sarnia Tech Community Subscriber
 If you are looking for a SLACK invite and would like more info emails about the community, then click [HERE](/member) to become a member.
