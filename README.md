@@ -21,6 +21,7 @@ If you would like to help maintain this site connect with us on SLACK and join t
 - Hans Study
 - Micah Wallace
 - Len Payne
+- Jon Ferwerda
 
 ----
 
