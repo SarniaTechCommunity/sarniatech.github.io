@@ -15,6 +15,12 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        });
+    </script>
 </head>
 
 <body>
@@ -23,7 +29,7 @@
         <nav class="desktop">
             <ul class="channel">
                 <li><a href="https://sarnia.slack.com/"><img src="assets/img/ch1.png" alt="slack"></a></li>
-                <!-- <li><a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch2.png" alt="twitter"></a></li> -->
+                <li><a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch2.png" alt="twitter"></a></li><!-- sarnia tech twitter placeholder-->
                 <li><a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch3.png" alt="facebook"></a></li>
             </ul>
             <ul class="menu">
@@ -32,8 +38,16 @@
                 <li><a href="#family-section">Friends and Family</a></li>
             </ul>
         </nav>
-        <nav class="mobile">
-            <img src="assets/img/menu.png" alt="menu">
+        <nav class="mobile hamburger-menu">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 424 424" style="enable-background:new 0 0 424 424;" xml:space="preserve">
+
+                <path style="fill:#010002;" d="M35,89C15,89,0,74,0,54s15-36,35-36h353c20,0,36,16,36,36s-16,35-36,35H35z"/>
+                <path style="fill:#010002;" d="M388,176c20,0,36,16,36,36s-16,35-36,35H35c-20,0-35-15-35-35s15-36,35-36H388z"/>
+                <path style="fill:#010002;" d="M388,335c20,0,36,15,36,35s-16,36-36,36H35c-20,0-35-16-35-36s15-35,35-35H388z"/>
+   
+
+            </svg>
         </nav>
         <img src="assets/img/logo.png" alt="logo">
     </section>
@@ -64,19 +78,12 @@
             <div class="columns">
                 <div class="column"><img src="assets/img/main-img2.png" alt="meetings"></div>
                 <div class="column is-half text-right">
-                  <div class="columns">
-                    <div class="column is-one-third">
-                      <!-- leave empty. -->
-                    </div>
-                    <div class="column is-two-third" style="text-align: left;">
-                      <h2 class="header-title">Networking Events</h1>
-                      <h3 class="header-subtitle ">We get together once in a while to talk about tech,
-                      entrepreneurship and business. We meet up at the Story
-                      which is located in Downtown Sarnia. For more information on upcoming events, please visit our Facebook page.
-                      </h3>
-                      <a href="https://www.google.ca/maps/place/theStory/@42.9729758,-82.4094274,17z/data=!4m5!3m4!1s0x88259cc31bde2e8b:0x8ed04c1348104121!8m2!3d42.9729758!4d-82.4072387" class="button header-button2">The Story Location</a>
-                    </div>
-                  </div>
+                    <h2 class="header-title">Meetings</h1>
+                    <h3 class="header-subtitle ">We hold a monthly networking meeting<br/>
+                    at The Story on Christina Street in Sarnia at 6PM<br/>
+                    on the last Wednesday of every month<br/>
+                    For directions to <span class="blk">The Story.</span></h3>
+                    <a href="https://www.google.ca/maps/place/theStory/@42.9729758,-82.4094274,17z/data=!4m5!3m4!1s0x88259cc31bde2e8b:0x8ed04c1348104121!8m2!3d42.9729758!4d-82.4072387" class="button header-button2">The Story Location</a>
                 </div>
             </div>
         </div>
@@ -91,7 +98,7 @@
                 <div class="column is-three-quarters">
                     <h2 class="header-title">Join the Community</h2>
                     <a href="https://sarnia.slack.com/"><img src="assets/img/ch1-2.png" alt="slack"></a>
-                    <!-- <a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch2.png" alt="twitter"></a> -->
+                    <a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch2.png" alt="twitter"></a>
                     <a href="https://www.facebook.com/groups/SarniaTech/"><img src="assets/img/ch3.png" alt="facebook"></a>
 
                     <h3 class="header-subtitle">The best place to see upcoming events is by joining our <a href="https://www.facebook.com/groups/SarniaTech/"><span class="blue">Facebook</span></a> Group.
@@ -101,9 +108,12 @@
                      We also have a <a href="https://goo.gl/4vA69g">Google Drive</a> where you can check out some of our collaboration docs.
                      PS We take privacy very seriously. We will only use the information you provide to give you information about the Sarnia Tech Community.
                      PPS You can unsubscribe or change your email preferences at any time.</h3>
-                    <a href="https://www.facebook.com/groups/SarniaTech/" class="button header-button2">Go to Facebook</a>
-                    <a href="/member" class="button header-button2">Become a Member</a>
-                    <a href="/subscriber" class="button header-button2">Subscribe for Updates</a>
+                    <div class="join-section-btnbox">
+                        <a href="https://www.facebook.com/groups/SarniaTech/" class="button header-button2">Go to Facebook</a>
+                        <a href="/member" class="button header-button2">Become a Member</a>
+                        <a href="/subscriber" class="button header-button2">Subscribe for Updates</a>  
+                    </div>
+                    
                 </div>
                 <div class="column facebook">
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
