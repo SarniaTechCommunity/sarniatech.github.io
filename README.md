@@ -10,18 +10,15 @@ To visit the live site go to [sarniatechcommunity.github.io](https://sarniatechc
 
 If you would like to help maintain this site connect with us on SLACK and join the #website channel.
 
-##### Designed and Developed by:
+##### STC Website Team:
 
-- Aerie Jung
-- Lewis Menelaws
-
-##### Additional Help
-
-- Samantha Elizabeth - Writing + Copy
+- Samantha Elizabeth
 - Hans Study
 - Micah Wallace
 - Len Payne
 - Jon Ferwerda
+- Aerie Jung
+- Lewis Menelaws
 
 ----
 
