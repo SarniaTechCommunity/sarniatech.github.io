@@ -10,9 +10,6 @@ body{
     padding: 0px;
     overflow-x: hidden;
 }
-.top-logo{
-    width: 6.5em;
-}
 #meeting-section, #join-section, #family-section{
     padding-top: 5em;
     padding-bottom: 5em;
@@ -29,9 +26,7 @@ body{
     font-size: 2em;
     font-weight: bold;
 }
-.slug-color{
-    color: #157f71 !important;
-}
+
 #join-section .header-subtitle, #family-section .header-subtitle, #meeting-section .header-subtitle{
     color: #909090;
 }
@@ -39,41 +34,11 @@ body{
     border-color: #fff;
     color: #fff;
 }
-.button:hover.header-button2 {
-    background: #0047e4;
-    border-color: #0047e4;
-    color: #fff;
-}
-.button:hover.header-button3{
-    background: #157f71;
-    border-color: #157f71;
-    color: #fff;
-}
-.button-box{
-    margin-top: 2em;
-}
-#header-section .button-box svg, #brand-download a svg{
-    width: 1em;
-    margin-top:-2px;
-    margin-right: 10px;
-    fill: #8cfef4;
-}
-
-#meeting-section .button-box svg, #join-section .button-box svg, #brand-download a svg{
-    width: 1em;
-    margin-top:-2px;
-    margin-right: 10px;
-    fill: #0047e4;
-}
-
-.button-box svg.member{
-    width: 1.3em !important;
-}
 .header-button1, .header-button2, .header-button3{
     background-color: transparent;
     border-radius: 2em;
-    width:100%;
-    padding: 1.7em;
+    margin-top: 2em;
+    padding: 1.4em;
 }
 .header-button1{
     color: #8cfef4;
@@ -103,13 +68,7 @@ body{
     text-decoration: underline;
     font-weight: bold;
 }
-.f-bold{
-    font-weight: bold;
-}
-.header-button2.mobile{
-    width: 100%;
-    display: block;
-}
+
 
 
 /*Header Area*/
@@ -175,55 +134,20 @@ body{
 .mobile{
     display: none;
 }
-.hamburger-menu{
-    fill: #fff;
-}
-.hamburger-menu.active{
-    fill: #0047e4;
-}
-#nav-section nav.hamburger-menu svg{
-    width: 3em;
-    position: absolute;
-    z-index: 2;
-    top:3.5em;
-    right:2em;
-}
-#nav-section nav.hamburger-menu ul{
-    width: 100%;
-    height: 100%;
-    display:none;
-    position: fixed;
-    background: #fff;
-    text-align: left;
-    padding-top: 6em;
-    z-index: 1;
-    top:0;
-    left:0;
-}
-#nav-section nav.hamburger-menu ul li{
-    display: block;
-    font-weight: bold;
-    padding: 1em;
-    border-bottom: solid 1px #dfdfdf;
-}
 
 
 /*Meeting Area*/
 #meeting-section{
-    background: #fafbfd url('../img/main2-map.svg') no-repeat;
+    background: #fafbfd url('../img/main-bg2.png') no-repeat;
     background-size: 70% auto;
 }
-
+#meeting-section img{
+    width:80%;
+}
 
 /*Join Area*/
 .facebook{
     text-align: right;
-}
-#join-section .social-icon a{
-    padding-right: .5em;
-}
-#join-section .button-box .column a{
-    padding: 1.7em .3em;
 }
 
 
@@ -232,121 +156,6 @@ body{
     background: url('../img/main-bg3.png') no-repeat;
     text-align: center;
 }
-
-/* Brand Top Area*/
-#brand-download {
-    margin-top: 11vw
-}
-#brand-download a{
-    width: 100%;
-}
-.brand-title{
-    background: url(../img/bg_brand-title.png) no-repeat;
-    background-position: bottom center;
-    background-size: 10% 1px;
-    font-size: 2em;
-    color: #0047e4;
-    text-align: center;
-    margin-bottom: 11vw;
-    padding-bottom: .7em;
-    padding-top: 11vw;
-}
-.bg-btm{
-    background: url(../img/bg_brand-box.png) no-repeat;
-    background-position: bottom center;
-    background-size: 60% 1px;
-    padding-bottom: 11vw;
-}
-.bg-btm:last-child{
-    background: none;
-}
-#brandtop-section{
-    background: url('../img/bg_top_brand.png') no-repeat;
-    background-size: 100% 100%;
-}
-#brandtop-section{
-    text-align: center
-}
-#brandtop-section .brand-logo{
-    width: 60%;
-    padding: 0 5vw;
-}
-#brandtop-section .brand-box{
-    padding: 1em;
-}
-#brand-logo-type .w{
-    border: solid 1px #e8e8e8;
-}
-#brand-logo-type .b{
-    background: #0047e4;
-}
-#brand-logo-type .h-logo{
-    display: block;
-    text-align: center;
-    padding: 4vw 3vw;
-}
-#brand-logo-type .h-logo img{
-    width: 30vw;
-}
-#brand-logo-type .v-logo{
-    text-align: center;
-    align-self:stretch;
-    padding: 5vw 2vw;
-}
-#brand-logo-type .i-logo{
-    text-align: center;
-    align-self:stretch;
-    padding: 3vw;
-}
-
-#brand-logo-type .title{
-    text-align: right;
-    color: #606060;
-    font-size: .8em;
-    margin-top: .7em;
-}
-
-#brand-color .color1{ background: #0082e6; width:100%; height: 5em; display: inline-block; }
-#brand-color .color2{ background: #addeff; width:100%; height: 5em; display: inline-block; }
-#brand-color .color3{ background: #ffffff; width:100%; height: 5em; display: inline-block;  border: solid 1px #e8e8e8;}
-#brand-color .color4{ background: #606060; width:100%; height: 5em; display: inline-block; }
-#brand-color .color5{ background: #0047e4; width:100%; height: 5em; display: inline-block; }
-#brand-color .title{
-    display: block;
-    width: 100%;
-    text-align: center;
-    color: #606060;
-    font-size: .8em;
-    margin-top: .7em;
-}
-#brand-font .font-box{
-    text-align: center;
-}
-#brand-font .heading-box,#brand-font .content-box{
-    text-align: left
-}
-#brand-font .font1{
-    color: #0047e4;
-    font-size:3em;
-}
-#brand-font .font2{
-    margin-top: 2em;
-    margin-bottom: 6em;
-}
-
-
-#brand-font .font-heading1{
-    font-size: 4em;
-    font-weight: bold;
-    color: #0047e4;
-}
-#brand-font .font-heading2{
-    font-size: 2em;
-    font-weight: bold;
-    color: #0047e4;
-}
-
-
 
 /*Footer Area*/
 footer{
@@ -381,23 +190,15 @@ footer{
         padding-left: 2em;
         padding-right: 2em;
     }
-    #header-section .header-title {
-        font-size: 4em;
-    }
 
     .facebook{
-        text-align: center;
-    }
-
-    .header-button2.mobile{
-        margin-top: 0;
-    }
-
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 426px) {
     #header-section .header-title {
-        font-size: 10vw;
+        font-size: 4em;
     }
 
     #join-section .header-title, #family-section .header-title, #meeting-section .header-title {
@@ -407,6 +208,7 @@ footer{
     #join-section .header-title, #family-section .header-title, #meeting-section .header-subtitle {
         margin-top: 1em;
     }
+
 }
 
 @media only screen and (min-width: 1216px) {
