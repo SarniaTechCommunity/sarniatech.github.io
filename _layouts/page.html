@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<!-- Join Area START -->
+<section class="is-large" id="join-section">
+    <div class="container">
+        {{ content }}
+    </div>
+</section>
+<!-- Join Area END -->
+
+{% for module in page.footer_modules %}
+{% include {{module}} %}
+{% endfor %}
