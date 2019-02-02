@@ -1,6 +1,8 @@
 /*COMMON*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html, body { background: #f5f5f5; }
+.bg-white { background: white; }
 
 body{
     font-family: 'Roboto', sans-serif;
