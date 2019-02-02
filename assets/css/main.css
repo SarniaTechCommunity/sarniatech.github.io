@@ -4,6 +4,26 @@
 html, body { background: #f5f5f5; }
 .bg-white { background: white; }
 
+.mb-2 { margin-bottom: 1rem; }
+
+
+.page-title {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.page-subtitle {
+    color: #157f71;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 30px 0;
+    text-align: center;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     width: 100%;
