@@ -44,3 +44,5 @@ Once you have those installed, clone the repository:
 The HTML page is located inside the `_layouts` folder.
 
 Once you have made the edits of your liking, submit a pull request and we will approve it ASAP.
+
+Run `bundle exec jekyll serve --draft` to run a local copy of the server accessible at [http://localhost:4000](http://localhost:4000). This test server will publish copies of draft posts for you review.
