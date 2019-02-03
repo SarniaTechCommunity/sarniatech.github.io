@@ -19,6 +19,7 @@ If you would like to help maintain this site connect with us on SLACK and join t
 - Jon Ferwerda
 - Aerie Jung
 - Lewis Menelaws
+- Jonathan Bennett
 
 ----
 
