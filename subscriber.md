@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: Become a Sarnia Tech Community Subscriber
 ---
 # Become a Sarnia Tech Community Subscriber
