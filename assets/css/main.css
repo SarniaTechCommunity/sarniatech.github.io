@@ -180,6 +180,9 @@ body{
 #nav-section nav ul.channel li{
     margin: 0 0.3em
 }
+.channel img {
+    width: 2em
+}
 #nav-section nav ul.menu li{
     margin:0 1em ;
 }
