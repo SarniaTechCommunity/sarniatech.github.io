@@ -1,4 +1,5 @@
 ---
+title: Blog
 layout: page
 ---
 
@@ -10,7 +11,6 @@ layout: page
   <li class="mb-2">
     <a href="{{ post.url }}">{{ post.title }}</a><br>
     Published {{ post.date | date: "%b %d, %Y" }}{% if post.author %}, By {{ post.author }}{% endif %}
-
   </li>
   {% endfor %}
 </ul>
