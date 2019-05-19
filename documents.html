@@ -1,0 +1,42 @@
+---
+layout: page
+title: Documents
+footer_modules:
+- 'modules/friends-and-family.html'
+---
+
+<style>
+  table {
+    width: 100%;
+  }
+</style>
+
+<h1 class="page-title">Documents</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Name</th>
+      <th>Size</th>
+      <th>Type</th>
+      <th>Published</th>
+      <th>url</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <ul>
+      {% for document in site.data.documents %}
+      <tr>
+        <td>{{ document.source }}</td>
+        <td><a href="{{ document.url }}">{{ document.name }}</a></td>
+        <td>{{ document.size }}</td>
+        <td>{{ document.type }}</td>
+        <td>{{ document.published }}</td>
+        <td><a href="{{ document.url }}">{{ document.url }}</a></td>
+      </tr>
+      {% endfor %}
+  </tbody>
+
+</table>

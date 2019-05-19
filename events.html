@@ -1,0 +1,52 @@
+---
+title: Events
+layout: page
+---
+
+<style>
+  /* just doing some basic styling, please replace with good stuff */
+  .event {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    border: 1px solid #000;
+  }
+
+  .event-date {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    width: 4rem;
+
+    border-right: 1px solid #000;
+    text-align: center;
+  }
+
+  .event-details {}
+
+  .event-price {
+    margin-left: auto;
+  }
+</style>
+
+<h1 class="page-title">Events</h1>
+
+<ul style="margin: 0; list-style: none;">
+  {% for event in site.events %}
+  <li class="mb-2">
+    <a href="{{ event.url }}" class="event">
+      <div class="event-date">
+        {{ event.event_date | date: '%-B' }}<br>
+        {{ event.event_date | date: '%-d' }}
+      </div>
+      <div class="event-details">
+        {{ event.title }}<br>
+        {{ event.start_time }}&mdash;{{ event.end_time }}
+      </div>
+      {% if event.price == 'free' %}
+      <div class="event-price event-price--free">Free Event</div>
+      {% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

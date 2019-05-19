@@ -1,0 +1,13 @@
+- name: document 1
+  size: 123 KB
+  type: PDF
+  published: May 19, 2019
+  url: /files/documents/doc-1.pdf
+  source: Jonathan
+  
+- name: document 2
+  size: 234 KB
+  type: gif
+  published: May 18, 2019
+  url: /files/documents/doc-2.gif
+  source: Sue

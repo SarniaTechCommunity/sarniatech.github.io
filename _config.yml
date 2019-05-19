@@ -27,6 +27,12 @@ github_username:  jekyll
 defaults:
   -
     scope:
+      page: ""
+      type: "events"
+    values:
+      layout: "event"
+  -
+    scope:
       path: ""
       type: "pages"
     values:
@@ -38,12 +44,18 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  events:
+    output: true
+    published: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
