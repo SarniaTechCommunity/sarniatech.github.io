@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div style="margin-bottom: 2rem">
+  {% include modules/event_cta.html event=page %}
+</div>
+
+<div class="content">
+  {{ content }}
+</div>
+
+{% include modules/event_cta.html event=page %}

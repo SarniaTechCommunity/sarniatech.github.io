@@ -1,0 +1,10 @@
+<div style="border: 1px solid #000; padding: 1rem;">
+  {{ include.event.event_date | date: '%A %B %d, %Y' }}<br>
+  {{ include.event.address }}<br>
+  {{ include.event.price }}
+
+  {% if include.event.fb_link %}
+  <br>
+  <a href="{{ include.event.fb_link }}">Sign up on Facebook</a>
+  {% endif %}
+</div>
