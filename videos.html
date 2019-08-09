@@ -1,0 +1,44 @@
+---
+layout: page
+title: Our Videos
+footer_modules:
+- 'modules/friends-and-family.html'
+---
+
+<div class="columns">
+  <div class="column is-three-quarters">
+
+    <h1 class="header-title">Our Videos</h1>
+
+    <div class="videos">
+      {% for video in site.data.videos %}
+      <article class="video {% if forloop.first %}is-first{% endif %}">
+        <div class="video-heading">
+          <h2 class="video-name">{{ video.name }}</h2>
+          <div class="video-date">{{ video.date }}</div>
+        </div>
+
+        <div class="video-embed video-embed--16-9 mb-2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video.video_id }}" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        {% if video.description %}
+        <p>{{ video.description }}</p>
+        {% endif %}
+
+        {% if forloop.first %}
+        <hr>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="column facebook">
+    <iframe
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsarniatech&tabs=timeline%2C%20events&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+      width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+      allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+</div>
