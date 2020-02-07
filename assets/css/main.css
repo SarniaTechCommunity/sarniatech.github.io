@@ -293,7 +293,8 @@ body{
 
 /*Family Area*/
 #family-section{
-    background: url('../img/main-bg3.png') no-repeat;
+    background-color: #F0F0F0;
+    background-image: url(../img/main-bg3.png);
     text-align: center;
 }
 
